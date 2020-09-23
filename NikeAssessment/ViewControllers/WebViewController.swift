@@ -10,4 +10,11 @@ import WebKit
 
 class WebViewController: UIViewController {
     
+    private var url: URL?
+    
+    convenience init(url: URL) {
+        self.init()
+        self.url = url
+    }
+    
 }

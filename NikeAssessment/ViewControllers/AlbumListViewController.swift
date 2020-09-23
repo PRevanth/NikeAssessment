@@ -104,7 +104,7 @@ extension AlbumListViewController: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let albumController = AlbumDetailViewController()
-//        viewController.album = viewModel.dataForRow(at: indexPath.row)
+        albumController.viewModel.eachAlbum = viewModel.dataForRow(at: indexPath.row)
         self.navigationController?.pushViewController(albumController, animated: true)
     }
 }
