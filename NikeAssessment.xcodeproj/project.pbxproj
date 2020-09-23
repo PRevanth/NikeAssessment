@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD65A2FD251AC30A0093A5E2 /* AlbumListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65A2FC251AC30A0093A5E2 /* AlbumListViewModel.swift */; };
+		AD65A303251AC32D0093A5E2 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65A302251AC32D0093A5E2 /* Results.swift */; };
+		AD65A308251AC3500093A5E2 /* RSSFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65A307251AC3500093A5E2 /* RSSFeed.swift */; };
+		AD65A30D251AC35F0093A5E2 /* Genres.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65A30C251AC35F0093A5E2 /* Genres.swift */; };
+		AD65A321251AC76A0093A5E2 /* AlbumDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65A320251AC76A0093A5E2 /* AlbumDetailViewModel.swift */; };
+		AD65A326251AC7860093A5E2 /* AlbumDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65A325251AC7860093A5E2 /* AlbumDetailViewController.swift */; };
+		AD65A32B251AC7C00093A5E2 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65A32A251AC7C00093A5E2 /* WebViewController.swift */; };
 		AD72F1BE251ABE2100FF84D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72F1BD251ABE2100FF84D7 /* AppDelegate.swift */; };
 		AD72F1C0251ABE2100FF84D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72F1BF251ABE2100FF84D7 /* SceneDelegate.swift */; };
-		AD72F1C2251ABE2100FF84D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72F1C1251ABE2100FF84D7 /* ViewController.swift */; };
-		AD72F1C5251ABE2100FF84D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD72F1C3251ABE2100FF84D7 /* Main.storyboard */; };
+		AD72F1C2251ABE2100FF84D7 /* AlbumListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72F1C1251ABE2100FF84D7 /* AlbumListViewController.swift */; };
 		AD72F1C7251ABE2400FF84D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD72F1C6251ABE2400FF84D7 /* Assets.xcassets */; };
 		AD72F1CA251ABE2400FF84D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD72F1C8251ABE2400FF84D7 /* LaunchScreen.storyboard */; };
 		AD72F1D5251ABE2400FF84D7 /* NikeAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72F1D4251ABE2400FF84D7 /* NikeAssessmentTests.swift */; };
 		AD72F1E0251ABE2400FF84D7 /* NikeAssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72F1DF251ABE2400FF84D7 /* NikeAssessmentUITests.swift */; };
+		AD72F203251ABF3200FF84D7 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72F202251ABF3200FF84D7 /* Network.swift */; };
+		AD72F208251ABF7B00FF84D7 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72F207251ABF7B00FF84D7 /* AppConstants.swift */; };
+		ADDFE67B251ACED1003E0AAF /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDFE67A251ACED1003E0AAF /* SpinnerView.swift */; };
+		ADDFE683251AD0F4003E0AAF /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDFE682251AD0F4003E0AAF /* AlbumTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +45,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD65A2FC251AC30A0093A5E2 /* AlbumListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListViewModel.swift; sourceTree = "<group>"; };
+		AD65A302251AC32D0093A5E2 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		AD65A307251AC3500093A5E2 /* RSSFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeed.swift; sourceTree = "<group>"; };
+		AD65A30C251AC35F0093A5E2 /* Genres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genres.swift; sourceTree = "<group>"; };
+		AD65A320251AC76A0093A5E2 /* AlbumDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailViewModel.swift; sourceTree = "<group>"; };
+		AD65A325251AC7860093A5E2 /* AlbumDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailViewController.swift; sourceTree = "<group>"; };
+		AD65A32A251AC7C00093A5E2 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		AD72F1BA251ABE2100FF84D7 /* NikeAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NikeAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD72F1BD251ABE2100FF84D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD72F1BF251ABE2100FF84D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AD72F1C1251ABE2100FF84D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AD72F1C4251ABE2100FF84D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD72F1C1251ABE2100FF84D7 /* AlbumListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListViewController.swift; sourceTree = "<group>"; };
 		AD72F1C6251ABE2400FF84D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD72F1C9251ABE2400FF84D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AD72F1CB251ABE2400FF84D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD72F1CB251ABE2400FF84D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = NikeAssessment/Plist/Info.plist; sourceTree = SOURCE_ROOT; };
 		AD72F1D0251ABE2400FF84D7 /* NikeAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikeAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD72F1D4251ABE2400FF84D7 /* NikeAssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeAssessmentTests.swift; sourceTree = "<group>"; };
 		AD72F1D6251ABE2400FF84D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD72F1DB251ABE2400FF84D7 /* NikeAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikeAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD72F1DF251ABE2400FF84D7 /* NikeAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeAssessmentUITests.swift; sourceTree = "<group>"; };
 		AD72F1E1251ABE2400FF84D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD72F202251ABF3200FF84D7 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		AD72F207251ABF7B00FF84D7 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		ADDFE67A251ACED1003E0AAF /* SpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
+		ADDFE682251AD0F4003E0AAF /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +96,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD65A301251AC31D0093A5E2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD65A302251AC32D0093A5E2 /* Results.swift */,
+				AD65A307251AC3500093A5E2 /* RSSFeed.swift */,
+				AD65A30C251AC35F0093A5E2 /* Genres.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		AD72F1B1251ABE2100FF84D7 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +129,17 @@
 		AD72F1BC251ABE2100FF84D7 /* NikeAssessment */ = {
 			isa = PBXGroup;
 			children = (
-				AD72F1BD251ABE2100FF84D7 /* AppDelegate.swift */,
-				AD72F1BF251ABE2100FF84D7 /* SceneDelegate.swift */,
-				AD72F1C1251ABE2100FF84D7 /* ViewController.swift */,
-				AD72F1C3251ABE2100FF84D7 /* Main.storyboard */,
-				AD72F1C6251ABE2400FF84D7 /* Assets.xcassets */,
-				AD72F1C8251ABE2400FF84D7 /* LaunchScreen.storyboard */,
-				AD72F1CB251ABE2400FF84D7 /* Info.plist */,
+				ADDFE679251ACEBC003E0AAF /* View */,
+				AD65A301251AC31D0093A5E2 /* Models */,
+				AD72F1F5251ABE7000FF84D7 /* Assets */,
+				AD72F200251ABF0B00FF84D7 /* Constants */,
+				AD72F1F3251ABE4B00FF84D7 /* Delegates */,
+				AD72F1FF251ABF0300FF84D7 /* Networking */,
+				AD72F1F7251ABE9200FF84D7 /* Plist */,
+				AD72F1F6251ABE7F00FF84D7 /* Storyboard */,
+				AD72F201251ABF1500FF84D7 /* TableViewCells */,
+				AD72F1F4251ABE6000FF84D7 /* ViewControllers */,
+				AD72F1FE251ABEF700FF84D7 /* ViewModels */,
 			);
 			path = NikeAssessment;
 			sourceTree = "<group>";
@@ -126,6 +160,90 @@
 				AD72F1E1251ABE2400FF84D7 /* Info.plist */,
 			);
 			path = NikeAssessmentUITests;
+			sourceTree = "<group>";
+		};
+		AD72F1F3251ABE4B00FF84D7 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				AD72F1BD251ABE2100FF84D7 /* AppDelegate.swift */,
+				AD72F1BF251ABE2100FF84D7 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		AD72F1F4251ABE6000FF84D7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD72F1C1251ABE2100FF84D7 /* AlbumListViewController.swift */,
+				AD65A325251AC7860093A5E2 /* AlbumDetailViewController.swift */,
+				AD65A32A251AC7C00093A5E2 /* WebViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AD72F1F5251ABE7000FF84D7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AD72F1C6251ABE2400FF84D7 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		AD72F1F6251ABE7F00FF84D7 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AD72F1C8251ABE2400FF84D7 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		AD72F1F7251ABE9200FF84D7 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				AD72F1CB251ABE2400FF84D7 /* Info.plist */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		AD72F1FE251ABEF700FF84D7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AD65A2FC251AC30A0093A5E2 /* AlbumListViewModel.swift */,
+				AD65A320251AC76A0093A5E2 /* AlbumDetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AD72F1FF251ABF0300FF84D7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				AD72F202251ABF3200FF84D7 /* Network.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		AD72F200251ABF0B00FF84D7 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				AD72F207251ABF7B00FF84D7 /* AppConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		AD72F201251ABF1500FF84D7 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				ADDFE682251AD0F4003E0AAF /* AlbumTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		ADDFE679251ACEBC003E0AAF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ADDFE67A251ACED1003E0AAF /* SpinnerView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +351,6 @@
 			files = (
 				AD72F1CA251ABE2400FF84D7 /* LaunchScreen.storyboard in Resources */,
 				AD72F1C7251ABE2400FF84D7 /* Assets.xcassets in Resources */,
-				AD72F1C5251ABE2100FF84D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +375,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD72F1C2251ABE2100FF84D7 /* ViewController.swift in Sources */,
+				AD65A30D251AC35F0093A5E2 /* Genres.swift in Sources */,
+				ADDFE67B251ACED1003E0AAF /* SpinnerView.swift in Sources */,
+				AD72F1C2251ABE2100FF84D7 /* AlbumListViewController.swift in Sources */,
+				AD65A308251AC3500093A5E2 /* RSSFeed.swift in Sources */,
+				AD65A326251AC7860093A5E2 /* AlbumDetailViewController.swift in Sources */,
 				AD72F1BE251ABE2100FF84D7 /* AppDelegate.swift in Sources */,
+				AD65A303251AC32D0093A5E2 /* Results.swift in Sources */,
+				AD65A2FD251AC30A0093A5E2 /* AlbumListViewModel.swift in Sources */,
+				AD65A32B251AC7C00093A5E2 /* WebViewController.swift in Sources */,
 				AD72F1C0251ABE2100FF84D7 /* SceneDelegate.swift in Sources */,
+				AD72F203251ABF3200FF84D7 /* Network.swift in Sources */,
+				ADDFE683251AD0F4003E0AAF /* AlbumTableViewCell.swift in Sources */,
+				AD72F208251ABF7B00FF84D7 /* AppConstants.swift in Sources */,
+				AD65A321251AC76A0093A5E2 /* AlbumDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +424,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AD72F1C3251ABE2100FF84D7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AD72F1C4251ABE2100FF84D7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AD72F1C8251ABE2400FF84D7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,7 +557,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NikeAssessment/Info.plist;
+				INFOPLIST_FILE = NikeAssessment/Plist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,7 +575,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NikeAssessment/Info.plist;
+				INFOPLIST_FILE = NikeAssessment/Plist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -514,7 +634,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NikeAssessmentUITests/Info.plist;
+				INFOPLIST_FILE = NikeAssessmentTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -533,7 +653,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NikeAssessmentUITests/Info.plist;
+				INFOPLIST_FILE = NikeAssessmentTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
