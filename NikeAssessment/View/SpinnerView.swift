@@ -12,6 +12,7 @@ class SpinnerView: UIActivityIndicatorView {
     
     func  setup(view: UIView) {
         let activityIndicatorView = UIActivityIndicatorView(style: .large)
+        activityIndicatorView.color = .darkGray
         self.activityIndicatorView = activityIndicatorView
         view.addSubview(activityIndicatorView)
         self.activityIndicatorView?.translatesAutoresizingMaskIntoConstraints = false

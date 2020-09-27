@@ -1,0 +1,990 @@
+{
+    "feed": {
+        "title": "Coming Soon",
+        "id": "https://rss.itunes.apple.com/api/v1/us/apple-music/coming-soon/all/100/explicit.json",
+        "author": {
+            "name": "iTunes Store",
+            "uri": "http://wwww.apple.com/us/itunes/"
+        },
+        "links": [
+            {
+                "self": "https://rss.itunes.apple.com/api/v1/us/apple-music/coming-soon/all/100/explicit.json"
+            },
+            {
+                "alternate": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewRoom?fcId=1396220241&app=music"
+            }
+        ],
+        "copyright": "Copyright © 2018 Apple Inc. All rights reserved.",
+        "country": "us",
+        "icon": "http://itunes.apple.com/favicon.ico",
+        "updated": "2020-09-26T01:56:31.000-07:00",
+        "results": [
+            {
+                "artistName": "Chris Stapleton",
+                "id": "1528423147",
+                "releaseDate": "2020-11-13",
+                "name": "Starting Over",
+                "kind": "album",
+                "copyright": "A Mercury Nashville Release; ℗ 2020 Sound Records, under exclusive license to UMG Recordings, Inc.",
+                "artistId": "1752134",
+                "artistUrl": "https://music.apple.com/us/artist/chris-stapleton/1752134?app=music",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Music114/v4/0e/e1/be/0ee1bebf-783b-787e-8f34-0d0df37b3f69/20UMGIM71875.rgb.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6",
+                        "name": "Country",
+                        "url": "https://itunes.apple.com/us/genre/id6"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/starting-over/1528423147?app=music"
+            },
+            {
+                "artistName": "Elton John",
+                "id": "1530930448",
+                "releaseDate": "2020-11-13",
+                "name": "Jewel Box",
+                "kind": "album",
+                "copyright": "An EMI Release; This Compilation ℗ 2020 Universal Music Operations Limited",
+                "artistId": "54657",
+                "artistUrl": "https://music.apple.com/us/artist/elton-john/54657?app=music",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Music114/v4/5d/da/6a/5dda6a50-e5d0-a1f1-8c3d-65f6c9f9c08d/20UMGIM67750.rgb.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "14",
+                        "name": "Pop",
+                        "url": "https://itunes.apple.com/us/genre/id14"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/jewel-box/1530930448?app=music"
+            },
+            {
+                "artistName": "Sam Smith",
+                "id": "1531499128",
+                "releaseDate": "2020-10-23",
+                "name": "Love Goes",
+                "kind": "album",
+                "copyright": "A Capitol Records UK Release; ℗ 2020 Universal Music Operations Limited",
+                "artistId": "156488786",
+                "contentAdvisoryRating": "Explicit",
+                "artistUrl": "https://music.apple.com/us/artist/sam-smith/156488786?app=music",
+                "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/88/32/ef/8832ef4b-6394-e2bf-61ac-abb07a4e3a84/20UMGIM49499.rgb.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "14",
+                        "name": "Pop",
+                        "url": "https://itunes.apple.com/us/genre/id14"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/love-goes/1531499128?app=music"
+            },
+            {
+                "artistName": "Yo La Tengo",
+                "id": "1526210922",
+                "releaseDate": "2020-10-09",
+                "name": "Sleepless Night - EP",
+                "kind": "album",
+                "copyright": "℗ 2020 Matador",
+                "artistId": "2959228",
+                "artistUrl": "https://music.apple.com/us/artist/yo-la-tengo/2959228?app=music",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/e1/61/16/e1611623-7e7b-a436-29d2-f986446b52a7/cover.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "20",
+                        "name": "Alternative",
+                        "url": "https://itunes.apple.com/us/genre/id20"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/sleepless-night-ep/1526210922?app=music"
+            },
+            {
+                "artistName": "Oneohtrix Point Never",
+                "id": "1529625639",
+                "releaseDate": "2020-10-30",
+                "name": "Magic Oneohtrix Point Never",
+                "kind": "album",
+                "copyright": "℗ 2020 Warp Records",
+                "artistId": "338172312",
+                "artistUrl": "https://music.apple.com/us/artist/oneohtrix-point-never/338172312?app=music",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Music124/v4/80/5e/1c/805e1cc1-19c0-e0c9-2bb3-5635d66d4f0e/0801061031831.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "7",
+                        "name": "Electronic",
+                        "url": "https://itunes.apple.com/us/genre/id7"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    },
+                    {
+                        "genreId": "20",
+                        "name": "Alternative",
+                        "url": "https://itunes.apple.com/us/genre/id20"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/magic-oneohtrix-point-never/1529625639?app=music"
+            },
+            {
+                "artistName": "Luke Combs",
+                "id": "1527782144",
+                "releaseDate": "2020-10-23",
+                "name": "What You See Ain't Always What You Get (Deluxe Edition)",
+                "kind": "album",
+                "copyright": "℗ 2020 River House Artists LLC, under exclusive license to Sony Music Entertainment. All rights reserved.",
+                "artistId": "815635315",
+                "artistUrl": "https://music.apple.com/us/artist/luke-combs/815635315?app=music",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/13/4a/11/134a11e7-35f1-a9e4-3f8c-a70443ca2e0a/886448691341.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6",
+                        "name": "Country",
+                        "url": "https://itunes.apple.com/us/genre/id6"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/what-you-see-aint-always-what-you-get-deluxe-edition/1527782144?app=music"
+            },
+            {
+                "artistName": "Ella Fitzgerald",
+                "id": "1527196268",
+                "releaseDate": "2020-10-02",
+                "name": "Ella: The Lost Berlin Tapes (Live)",
+                "kind": "album",
+                "copyright": "A Verve Records / UMe release; ℗ 2020 UMG Recordings, Inc.",
+                "artistId": "73568",
+                "artistUrl": "https://music.apple.com/us/artist/ella-fitzgerald/73568?app=music",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Music124/v4/ef/f5/95/eff595dc-7ba7-d825-bce9-402b54e12ccc/20UMGIM67857.rgb.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "11",
+                        "name": "Jazz",
+                        "url": "https://itunes.apple.com/us/genre/id11"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/ella-the-lost-berlin-tapes-live/1527196268?app=music"
+            },
+            {
+                "artistName": "LANY",
+                "id": "1525736397",
+                "releaseDate": "2020-10-02",
+                "name": "mama's boy",
+                "kind": "album",
+                "copyright": "A Polydor Records Release; ℗ 2020 Side Street Entertainment LLC, under exclusive licence to Universal Music Operations Limited",
+                "artistId": "867853783",
+                "artistUrl": "https://music.apple.com/us/artist/lany/867853783?app=music",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Music114/v4/b7/91/c0/b791c02f-aaa3-6013-9498-d745e7ae2843/20UMGIM33837.rgb.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "14",
+                        "name": "Pop",
+                        "url": "https://itunes.apple.com/us/genre/id14"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/mamas-boy/1525736397?app=music"
+            },
+            {
+                "artistName": "Kurt Vile",
+                "id": "1530407197",
+                "releaseDate": "2020-10-02",
+                "name": "Speed, Sound, Lonely KV - EP",
+                "kind": "album",
+                "copyright": "℗ 2020 Matador",
+                "artistId": "274234314",
+                "artistUrl": "https://music.apple.com/us/artist/kurt-vile/274234314?app=music",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Music124/v4/36/12/58/361258dc-73f0-cbbb-3afc-e8e7776d2f16/cover.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "20",
+                        "name": "Alternative",
+                        "url": "https://itunes.apple.com/us/genre/id20"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/speed-sound-lonely-kv-ep/1530407197?app=music"
+            },
+            {
+                "artistName": "Luke Titus",
+                "id": "1520803535",
+                "releaseDate": "2020-11-13",
+                "name": "Plasma",
+                "kind": "album",
+                "copyright": "℗ 2020 Sooper Records",
+                "artistId": "1295845128",
+                "artistUrl": "https://music.apple.com/us/artist/luke-titus/1295845128?app=music",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ce/79/98/ce7998d5-39a9-8aff-801c-ce70983c9bd3/617201804803.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "20",
+                        "name": "Alternative",
+                        "url": "https://itunes.apple.com/us/genre/id20"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    },
+                    {
+                        "genreId": "14",
+                        "name": "Pop",
+                        "url": "https://itunes.apple.com/us/genre/id14"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/plasma/1520803535?app=music"
+            },
+            {
+                "artistName": "Keith Jarrett",
+                "id": "1528317085",
+                "releaseDate": "2020-10-30",
+                "name": "Budapest Concert (Live)",
+                "kind": "album",
+                "copyright": "℗ 2020 ECM Records GmbH, under exclusive license to Deutsche Grammophon GmbH, Berlin",
+                "artistId": "72348",
+                "artistUrl": "https://music.apple.com/us/artist/keith-jarrett/72348?app=music",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Music114/v4/cf/20/52/cf20524c-fdcf-a083-8607-bc9d16d8559f/20UMGIM43624.rgb.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "11",
+                        "name": "Jazz",
+                        "url": "https://itunes.apple.com/us/genre/id11"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/budapest-concert-live/1528317085?app=music"
+            },
+            {
+                "artistName": "Actress",
+                "id": "1527467356",
+                "releaseDate": "2020-10-23",
+                "name": "Karma & Desire",
+                "kind": "album",
+                "copyright": "℗ 2020 Ninja Tune",
+                "artistId": "274498441",
+                "contentAdvisoryRating": "Explicit",
+                "artistUrl": "https://music.apple.com/us/artist/actress/274498441?app=music",
+                "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Music114/v4/f5/c0/18/f5c018dd-1dca-54e7-0ced-35cadcf43170/dj.wcavbzmo.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "7",
+                        "name": "Electronic",
+                        "url": "https://itunes.apple.com/us/genre/id7"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/karma-desire/1527467356?app=music"
+            },
+            {
+                "artistName": "Matt Berninger",
+                "id": "1524593457",
+                "releaseDate": "2020-10-16",
+                "name": "Serpentine Prison",
+                "kind": "album",
+                "copyright": "℗ 2020 Matt Berninger., Under exclusive license to Concord Records. Distributed by Concord.",
+                "artistId": "220281495",
+                "artistUrl": "https://music.apple.com/us/artist/matt-berninger/220281495?app=music",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Music114/v4/a0/07/61/a0076104-fab6-cd69-c0d9-28d3516a0b8e/20CRGIM21324.rgb.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "20",
+                        "name": "Alternative",
+                        "url": "https://itunes.apple.com/us/genre/id20"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/serpentine-prison/1524593457?app=music"
+            },
+            {
+                "artistName": "Curtis Waters",
+                "id": "1529122875",
+                "releaseDate": "2020-10-09",
+                "name": "Pity Party",
+                "kind": "album",
+                "copyright": "℗ 2020 Curtis Waters, Inc under exclusive license to BMG Rights Management (US) LLC",
+                "artistId": "1236971284",
+                "contentAdvisoryRating": "Explicit",
+                "artistUrl": "https://music.apple.com/us/artist/curtis-waters/1236971284?app=music",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Music114/v4/92/eb/5f/92eb5f4e-761b-65e0-629d-3d10a3a7bfb6/4050538636710.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "20",
+                        "name": "Alternative",
+                        "url": "https://itunes.apple.com/us/genre/id20"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/pity-party/1529122875?app=music"
+            },
+            {
+                "artistName": "beabadoobee",
+                "id": "1517132418",
+                "releaseDate": "2020-10-16",
+                "name": "Fake It Flowers",
+                "kind": "album",
+                "copyright": "℗ 2020 Dirty Hit",
+                "artistId": "1307650474",
+                "contentAdvisoryRating": "Explicit",
+                "artistUrl": "https://music.apple.com/us/artist/beabadoobee/1307650474?app=music",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Music123/v4/2a/b4/b3/2ab4b382-7f4a-7ba8-d388-45bc1d1c2c3f/192641510175_Cover.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "20",
+                        "name": "Alternative",
+                        "url": "https://itunes.apple.com/us/genre/id20"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/fake-it-flowers/1517132418?app=music"
+            },
+            {
+                "artistName": "YUNGBLUD",
+                "id": "1531394295",
+                "releaseDate": "2020-11-13",
+                "name": "weird!",
+                "kind": "album",
+                "copyright": "℗ 2020 Locomotion Recordings Limited, under exclusive license to Interscope Records",
+                "artistId": "213048599",
+                "contentAdvisoryRating": "Explicit",
+                "artistUrl": "https://music.apple.com/us/artist/yungblud/213048599?app=music",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Music114/v4/5b/1f/8a/5b1f8a3d-90fc-226e-b046-77c4bfc97fdc/20UMGIM74699.rgb.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "20",
+                        "name": "Alternative",
+                        "url": "https://itunes.apple.com/us/genre/id20"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/weird/1531394295?app=music"
+            },
+            {
+                "artistName": "Omy de Oro",
+                "id": "1529370381",
+                "releaseDate": "2020-10-09",
+                "name": "El Rey del Punchline",
+                "kind": "album",
+                "copyright": "℗ 2020 Young Boss Entertainment / Share that Music",
+                "artistId": "1439833778",
+                "contentAdvisoryRating": "Explicit",
+                "artistUrl": "https://music.apple.com/us/artist/omy-de-oro/1439833778?app=music",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Music124/v4/58/47/a6/5847a6c2-af17-983d-22e9-310ca969218c/20UMGIM72970.rgb.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "1119",
+                        "name": "Urbano latino",
+                        "url": "https://itunes.apple.com/us/genre/id1119"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    },
+                    {
+                        "genreId": "12",
+                        "name": "Latino",
+                        "url": "https://itunes.apple.com/us/genre/id12"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/el-rey-del-punchline/1529370381?app=music"
+            },
+            {
+                "artistName": "Hatebreed",
+                "id": "1500738430",
+                "releaseDate": "2020-11-27",
+                "name": "Weight of the False Self",
+                "kind": "album",
+                "copyright": "℗ 2020 Nuclear Blast",
+                "artistId": "90291",
+                "contentAdvisoryRating": "Explicit",
+                "artistUrl": "https://music.apple.com/us/artist/hatebreed/90291?app=music",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/2d/2e/d3/2d2ed325-4239-28c5-2ea4-bb7b7441e03c/cover.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "1153",
+                        "name": "Metal",
+                        "url": "https://itunes.apple.com/us/genre/id1153"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    },
+                    {
+                        "genreId": "21",
+                        "name": "Rock",
+                        "url": "https://itunes.apple.com/us/genre/id21"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/weight-of-the-false-self/1500738430?app=music"
+            },
+            {
+                "artistName": "Kari Jobe",
+                "id": "1531896919",
+                "releaseDate": "2020-10-23",
+                "name": "The Blessing (Live)",
+                "kind": "album",
+                "copyright": "Sparrow Records; ℗ 2020 KAJE, LLC., under exclusive license to Capitol CMG, Inc.",
+                "artistId": "136770805",
+                "artistUrl": "https://music.apple.com/us/artist/kari-jobe/136770805?app=music",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/64/03/a9/6403a9c7-05b7-dc25-ef28-a3fe36ff73d7/20UMGIM32215.rgb.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "22",
+                        "name": "Christian & Gospel",
+                        "url": "https://itunes.apple.com/us/genre/id22"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/the-blessing-live/1531896919?app=music"
+            },
+            {
+                "artistName": "Bruce Springsteen",
+                "id": "1529959055",
+                "releaseDate": "2020-10-23",
+                "name": "Letter To You",
+                "kind": "album",
+                "copyright": "℗ 2020 Bruce Springsteen",
+                "artistId": "178834",
+                "artistUrl": "https://music.apple.com/us/artist/bruce-springsteen/178834?app=music",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Music124/v4/d7/77/38/d77738e2-f0b1-bced-d6a4-440e3f64bb00/886448711810.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "21",
+                        "name": "Rock",
+                        "url": "https://itunes.apple.com/us/genre/id21"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/letter-to-you/1529959055?app=music"
+            },
+            {
+                "artistName": "Grateful Dead",
+                "id": "1529676260",
+                "releaseDate": "1970-11-01",
+                "name": "American Beauty (50th Anniversary Deluxe Edition)",
+                "kind": "album",
+                "copyright": "℗ 2020 Grateful Dead Productions, Under Exclusive License to Rhino Entertainment Company, a Warner Music Group Company",
+                "artistId": "1273063",
+                "artistUrl": "https://music.apple.com/us/artist/grateful-dead/1273063?app=music",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Music124/v4/d6/c2/52/d6c252be-a8ea-ea07-d80b-8c3abe245306/603497848508.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "21",
+                        "name": "Rock",
+                        "url": "https://itunes.apple.com/us/genre/id21"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    },
+                    {
+                        "genreId": "14",
+                        "name": "Pop",
+                        "url": "https://itunes.apple.com/us/genre/id14"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/american-beauty-50th-anniversary-deluxe-edition/1529676260?app=music"
+            },
+            {
+                "artistName": "Kylie Minogue",
+                "id": "1524066382",
+                "releaseDate": "2020-11-06",
+                "name": "DISCO (Deluxe)",
+                "kind": "album",
+                "copyright": "℗ 2020 Kylie Minogue/Darenote Limited under exclusive license to BMG Rights Management (UK) Limited",
+                "artistId": "465031",
+                "artistUrl": "https://music.apple.com/us/artist/kylie-minogue/465031?app=music",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Music114/v4/68/33/37/6833372e-b4bb-1f3d-f5a9-80b41a5c7aec/4050538635416.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "14",
+                        "name": "Pop",
+                        "url": "https://itunes.apple.com/us/genre/id14"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/disco-deluxe/1524066382?app=music"
+            },
+            {
+                "artistName": "Lee Brice",
+                "id": "1529349199",
+                "releaseDate": "2020-11-20",
+                "name": "Hey World",
+                "kind": "album",
+                "copyright": "℗ 2020 Curb Records, Inc.",
+                "artistId": "216359623",
+                "artistUrl": "https://music.apple.com/us/artist/lee-brice/216359623?app=music",
+                "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/6d/30/9f/6d309fd1-6cdf-e50f-752c-3177bf24f0a7/715187954762.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6",
+                        "name": "Country",
+                        "url": "https://itunes.apple.com/us/genre/id6"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/hey-world/1529349199?app=music"
+            },
+            {
+                "artistName": "Corey Taylor",
+                "id": "1525185660",
+                "releaseDate": "2020-10-02",
+                "name": "CMFT",
+                "kind": "album",
+                "copyright": "℗ 2020 Roadrunner Records, Inc.",
+                "artistId": "1182900937",
+                "contentAdvisoryRating": "Explicit",
+                "artistUrl": "https://music.apple.com/us/artist/corey-taylor/1182900937?app=music",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/2f/53/29/2f532909-7e36-d92e-fc26-f82a16ddb202/075679810960.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "1152",
+                        "name": "Hard Rock",
+                        "url": "https://itunes.apple.com/us/genre/id1152"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    },
+                    {
+                        "genreId": "21",
+                        "name": "Rock",
+                        "url": "https://itunes.apple.com/us/genre/id21"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/cmft/1525185660?app=music"
+            },
+            {
+                "artistName": "Wallows",
+                "id": "1530629793",
+                "releaseDate": "2020-10-23",
+                "name": "Remote - EP",
+                "kind": "album",
+                "copyright": "℗ 2020 Atlantic Recording Corporation for the United States and WEA International Inc. for the world outside the United States. A Warner Music Group Company",
+                "artistId": "1225257328",
+                "artistUrl": "https://music.apple.com/us/artist/wallows/1225257328?app=music",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/fd/8c/1c/fd8c1c43-f676-6cc3-d13c-78bcf5472a2b/075679806093.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "20",
+                        "name": "Alternative",
+                        "url": "https://itunes.apple.com/us/genre/id20"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/remote-ep/1530629793?app=music"
+            },
+            {
+                "artistName": "Sasha Sloan",
+                "id": "1529018233",
+                "releaseDate": "2020-10-16",
+                "name": "Only Child",
+                "kind": "album",
+                "copyright": "℗ 2020 RCA Records, a division of Sony Music Entertainment",
+                "artistId": "868093249",
+                "artistUrl": "https://music.apple.com/us/artist/sasha-sloan/868093249?app=music",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Music114/v4/b6/b6/45/b6b64556-9b45-83be-1cf4-71068d0efce9/886448653356.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "20",
+                        "name": "Alternative",
+                        "url": "https://itunes.apple.com/us/genre/id20"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/only-child/1529018233?app=music"
+            },
+            {
+                "artistName": "Nothing But Thieves",
+                "id": "1519413837",
+                "releaseDate": "2020-10-23",
+                "name": "Moral Panic",
+                "kind": "album",
+                "copyright": "℗ 2020 Sony Music Entertainment UK Limited",
+                "artistId": "524830875",
+                "contentAdvisoryRating": "Explicit",
+                "artistUrl": "https://music.apple.com/us/artist/nothing-but-thieves/524830875?app=music",
+                "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/3f/4e/14/3f4e1467-db6b-ca04-5803-c658d2a96506/886448371342.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "20",
+                        "name": "Alternative",
+                        "url": "https://itunes.apple.com/us/genre/id20"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/moral-panic/1519413837?app=music"
+            },
+            {
+                "artistName": "Robert Plant",
+                "id": "1524935375",
+                "releaseDate": "2020-10-02",
+                "name": "Digging Deep: Subterranea",
+                "kind": "album",
+                "copyright": "This Compilation Under license to Warner Music UK Limited, ℗ 2020 Trolcharm Ltd",
+                "artistId": "288062",
+                "artistUrl": "https://music.apple.com/us/artist/robert-plant/288062?app=music",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Music124/v4/49/6a/81/496a819c-4816-d93d-ae52-c87c1dd7cece/190295170400.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "21",
+                        "name": "Rock",
+                        "url": "https://itunes.apple.com/us/genre/id21"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/digging-deep-subterranea/1524935375?app=music"
+            },
+            {
+                "artistName": "Ela Minus",
+                "id": "1526852447",
+                "releaseDate": "2020-10-23",
+                "name": "acts of rebellion",
+                "kind": "album",
+                "copyright": "℗ 2020 Domino Recording Co Ltd",
+                "artistId": "1048273780",
+                "artistUrl": "https://music.apple.com/us/artist/ela-minus/1048273780?app=music",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Music124/v4/a2/6a/f1/a26af146-494b-4265-3406-2efe9001405f/887828047093.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "7",
+                        "name": "Electronic",
+                        "url": "https://itunes.apple.com/us/genre/id7"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/acts-of-rebellion/1526852447?app=music"
+            },
+            {
+                "artistName": "Brothers Osborne",
+                "id": "1526553910",
+                "releaseDate": "2020-10-09",
+                "name": "Skeletons",
+                "kind": "album",
+                "copyright": "An EMI Records Nashville Release; ℗ 2020 UMG Recordings, Inc.",
+                "artistId": "695313023",
+                "artistUrl": "https://music.apple.com/us/artist/brothers-osborne/695313023?app=music",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Music114/v4/81/52/5f/81525fa0-895d-9bec-e53e-6862fef142cb/20UMGIM48543.rgb.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6",
+                        "name": "Country",
+                        "url": "https://itunes.apple.com/us/genre/id6"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/skeletons/1526553910?app=music"
+            },
+            {
+                "artistName": "Carcass",
+                "id": "1525328232",
+                "releaseDate": "2020-10-30",
+                "name": "Despicable - EP",
+                "kind": "album",
+                "copyright": "℗ 2020 Nuclear Blast",
+                "artistId": "42159435",
+                "artistUrl": "https://music.apple.com/us/artist/carcass/42159435?app=music",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/94/88/d0/9488d023-7c14-c637-325a-59beab722d80/cover.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "1153",
+                        "name": "Metal",
+                        "url": "https://itunes.apple.com/us/genre/id1153"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    },
+                    {
+                        "genreId": "21",
+                        "name": "Rock",
+                        "url": "https://itunes.apple.com/us/genre/id21"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/despicable-ep/1525328232?app=music"
+            },
+            {
+                "artistName": "Various Artists",
+                "id": "1517262368",
+                "releaseDate": "2020-09-25",
+                "name": "Blue Note Re:imagined",
+                "kind": "album",
+                "copyright": "A Decca Records Release; ℗ 2020 Universal Music Operations Limited",
+                "artistId": "36270",
+                "artistUrl": "https://music.apple.com/us/artist/various-artists/36270?app=music",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/c9/dc/36/c9dc3616-f636-0c4d-5f20-0c5541a5f541/20UMGIM34503.rgb.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "11",
+                        "name": "Jazz",
+                        "url": "https://itunes.apple.com/us/genre/id11"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/blue-note-re-imagined/1517262368?app=music"
+            },
+            {
+                "artistName": "Bon Jovi",
+                "id": "1524597156",
+                "releaseDate": "2020-10-02",
+                "name": "2020",
+                "kind": "album",
+                "copyright": "℗ 2020 Captain Kidd Corp., Under exclusive license to Island Records, a division of UMG Recordings, Inc",
+                "artistId": "122782",
+                "artistUrl": "https://music.apple.com/us/artist/bon-jovi/122782?app=music",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/4f/17/cb/4f17cb5b-1a57-f5c3-e817-290593329fea/20UMGIM12228.rgb.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "21",
+                        "name": "Rock",
+                        "url": "https://itunes.apple.com/us/genre/id21"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/2020/1524597156?app=music"
+            },
+            {
+                "artistName": "Cam",
+                "id": "1523527625",
+                "releaseDate": "2020-10-30",
+                "name": "The Otherside",
+                "kind": "album",
+                "copyright": "℗ 2020 RCA Records, a division of Sony Music Entertainment",
+                "artistId": "975711021",
+                "artistUrl": "https://music.apple.com/us/artist/cam/975711021?app=music",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Music114/v4/e9/5a/4b/e95a4b63-f6d9-349f-39ab-aa82dd89f14b/886448600589.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6",
+                        "name": "Country",
+                        "url": "https://itunes.apple.com/us/genre/id6"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/the-otherside/1523527625?app=music"
+            },
+            {
+                "artistName": "Brent Cobb",
+                "id": "1516757322",
+                "releaseDate": "2020-10-02",
+                "name": "Keep 'Em on They Toes",
+                "kind": "album",
+                "copyright": "℗ 2020 Ol' Buddy Records marketed and distributed by Thirty Tigers",
+                "artistId": "163328523",
+                "artistUrl": "https://music.apple.com/us/artist/brent-cobb/163328523?app=music",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/11/a9/a2/11a9a207-e7b7-1472-9423-ffc2e448c6d0/195081765938.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6",
+                        "name": "Country",
+                        "url": "https://itunes.apple.com/us/genre/id6"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/keep-em-on-they-toes/1516757322?app=music"
+            },
+            {
+                "artistName": "Pallbearer",
+                "id": "1518969970",
+                "releaseDate": "2020-10-23",
+                "name": "Forgotten Days",
+                "kind": "album",
+                "copyright": "℗ 2020 Nuclear Blast",
+                "artistId": "499450846",
+                "artistUrl": "https://music.apple.com/us/artist/pallbearer/499450846?app=music",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/74/e2/94/74e29407-ced4-c4c0-4787-c2dfc00ffcb7/cover.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "1153",
+                        "name": "Metal",
+                        "url": "https://itunes.apple.com/us/genre/id1153"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    },
+                    {
+                        "genreId": "21",
+                        "name": "Rock",
+                        "url": "https://itunes.apple.com/us/genre/id21"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/forgotten-days/1518969970?app=music"
+            },
+            {
+                "artistName": "OneRepublic",
+                "id": "1502298673",
+                "releaseDate": "2020-12-31",
+                "name": "Human (Deluxe)",
+                "kind": "album",
+                "copyright": "℗ 2020 Mosley Music/Interscope Records",
+                "artistId": "260414340",
+                "artistUrl": "https://music.apple.com/us/artist/onerepublic/260414340?app=music",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/92/cb/79/92cb7922-3159-e829-739e-d1221749bf8b/19UMGIM85967.rgb.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "14",
+                        "name": "Pop",
+                        "url": "https://itunes.apple.com/us/genre/id14"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/human-deluxe/1502298673?app=music"
+            },
+            {
+                "artistName": "Enslaved",
+                "id": "1502372159",
+                "releaseDate": "2020-10-02",
+                "name": "Utgard",
+                "kind": "album",
+                "copyright": "℗ 2020 Nuclear Blast",
+                "artistId": "251500660",
+                "artistUrl": "https://music.apple.com/us/artist/enslaved/251500660?app=music",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Music113/v4/36/91/b8/3691b82f-ab2b-5507-8eb3-7e25c297151b/cover.jpg/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "1153",
+                        "name": "Metal",
+                        "url": "https://itunes.apple.com/us/genre/id1153"
+                    },
+                    {
+                        "genreId": "34",
+                        "name": "Music",
+                        "url": "https://itunes.apple.com/us/genre/id34"
+                    },
+                    {
+                        "genreId": "21",
+                        "name": "Rock",
+                        "url": "https://itunes.apple.com/us/genre/id21"
+                    }
+                ],
+                "url": "https://music.apple.com/us/album/utgard/1502372159?app=music"
+            }
+        ]
+    }
+}

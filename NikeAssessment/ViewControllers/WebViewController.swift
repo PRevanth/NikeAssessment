@@ -29,14 +29,16 @@ class WebViewController: UIViewController {
     }
     
     private func setupWebView() {
-        spinnerView.setup(view: self.view)
-        spinnerView.startAnimating()
         webView = WKWebView()
         webView?.navigationDelegate = self
         view = webView
     }
     
     private func loadAlbum() {
+        // Spinner Setup
+        spinnerView.setup(view: self.view)
+        spinnerView.startAnimating()
+        
         guard let url = self.url else {
             // Should handle error.
             return

@@ -7,11 +7,16 @@
 
 import UIKit
 
-class AlbumListViewModel: UIViewController {
+class AlbumListViewModel {
     
     private var albumResults: [Results] = []
     var shouldReload: (() -> Void)?
     var displayError: (() -> Void)?
+    var service: NetworkProtocol
+    
+    init() {
+        service = AlbumFetchNetworkService()
+    }
     
     var numberOfRows: Int {
         return albumResults.count
@@ -26,25 +31,19 @@ class AlbumListViewModel: UIViewController {
     
     func fetchAlbums() {
         let request = FetchAlbums()
-        
-        Network().dataTask(request) { (result) in
-            switch result {
-            case .success(let decodedModel):
-                guard let response = decodedModel as? RSSFeed else {
-                    self.displayError?()
-                    return
-                }
-                self.albumResults = response.feed.results
-                self.shouldReload?()
-            case .failure(let error):
+        service.execute(request: request) { (response: RSSFeed?, _) in
+            guard let albumResponse = response else {
                 self.displayError?()
+                return
             }
+            self.albumResults = albumResponse.feed.results
+            self.shouldReload?()
         }
     }
     
 }
 
-private struct FetchAlbums: RequestProtocol {
+struct FetchAlbums: RequestProtocol {
     typealias ResponseType = RSSFeed
     
     let url = Network.Constants.baseURL

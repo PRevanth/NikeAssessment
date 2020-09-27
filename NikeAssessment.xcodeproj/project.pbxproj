@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD5EA8E9251E6C1400AA5ED7 /* RSSFeedResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = AD5EA8E8251E6C1400AA5ED7 /* RSSFeedResponse.json */; };
 		AD65A2FD251AC30A0093A5E2 /* AlbumListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65A2FC251AC30A0093A5E2 /* AlbumListViewModel.swift */; };
 		AD65A303251AC32D0093A5E2 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65A302251AC32D0093A5E2 /* Results.swift */; };
 		AD65A308251AC3500093A5E2 /* RSSFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD65A307251AC3500093A5E2 /* RSSFeed.swift */; };
@@ -20,9 +21,12 @@
 		AD72F1C7251ABE2400FF84D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD72F1C6251ABE2400FF84D7 /* Assets.xcassets */; };
 		AD72F1CA251ABE2400FF84D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD72F1C8251ABE2400FF84D7 /* LaunchScreen.storyboard */; };
 		AD72F1D5251ABE2400FF84D7 /* NikeAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72F1D4251ABE2400FF84D7 /* NikeAssessmentTests.swift */; };
-		AD72F1E0251ABE2400FF84D7 /* NikeAssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72F1DF251ABE2400FF84D7 /* NikeAssessmentUITests.swift */; };
 		AD72F203251ABF3200FF84D7 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72F202251ABF3200FF84D7 /* Network.swift */; };
 		AD72F208251ABF7B00FF84D7 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD72F207251ABF7B00FF84D7 /* AppConstants.swift */; };
+		AD7958912520F4280092F97F /* JSONHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7958902520F4280092F97F /* JSONHelper.swift */; };
+		AD7958A42520F7E00092F97F /* MockAlbumFetchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7958A32520F7E00092F97F /* MockAlbumFetchService.swift */; };
+		AD7958A82520F8B30092F97F /* EmptyResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = AD7958A72520F8B30092F97F /* EmptyResponse.json */; };
+		AD7958B22520FC470092F97F /* AlbumFetchNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7958B12520FC470092F97F /* AlbumFetchNetworkService.swift */; };
 		ADDFE67B251ACED1003E0AAF /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDFE67A251ACED1003E0AAF /* SpinnerView.swift */; };
 		ADDFE683251AD0F4003E0AAF /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDFE682251AD0F4003E0AAF /* AlbumTableViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -35,16 +39,10 @@
 			remoteGlobalIDString = AD72F1B9251ABE2100FF84D7;
 			remoteInfo = NikeAssessment;
 		};
-		AD72F1DC251ABE2400FF84D7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AD72F1B2251ABE2100FF84D7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AD72F1B9251ABE2100FF84D7;
-			remoteInfo = NikeAssessment;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD5EA8E8251E6C1400AA5ED7 /* RSSFeedResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RSSFeedResponse.json; sourceTree = "<group>"; };
 		AD65A2FC251AC30A0093A5E2 /* AlbumListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListViewModel.swift; sourceTree = "<group>"; };
 		AD65A302251AC32D0093A5E2 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
 		AD65A307251AC3500093A5E2 /* RSSFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeed.swift; sourceTree = "<group>"; };
@@ -61,12 +59,13 @@
 		AD72F1CB251ABE2400FF84D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = NikeAssessment/Plist/Info.plist; sourceTree = SOURCE_ROOT; };
 		AD72F1D0251ABE2400FF84D7 /* NikeAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikeAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD72F1D4251ABE2400FF84D7 /* NikeAssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeAssessmentTests.swift; sourceTree = "<group>"; };
-		AD72F1D6251ABE2400FF84D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AD72F1DB251ABE2400FF84D7 /* NikeAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikeAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD72F1DF251ABE2400FF84D7 /* NikeAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeAssessmentUITests.swift; sourceTree = "<group>"; };
-		AD72F1E1251ABE2400FF84D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD72F1D6251ABE2400FF84D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = NikeAssessmentTests/Info.plist; sourceTree = SOURCE_ROOT; };
 		AD72F202251ABF3200FF84D7 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		AD72F207251ABF7B00FF84D7 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		AD7958902520F4280092F97F /* JSONHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONHelper.swift; sourceTree = "<group>"; };
+		AD7958A32520F7E00092F97F /* MockAlbumFetchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAlbumFetchService.swift; sourceTree = "<group>"; };
+		AD7958A72520F8B30092F97F /* EmptyResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EmptyResponse.json; sourceTree = "<group>"; };
+		AD7958B12520FC470092F97F /* AlbumFetchNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumFetchNetworkService.swift; sourceTree = "<group>"; };
 		ADDFE67A251ACED1003E0AAF /* SpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
 		ADDFE682251AD0F4003E0AAF /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,16 +85,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD72F1D8251ABE2400FF84D7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD5EA8E7251E6BE000AA5ED7 /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				AD7958A72520F8B30092F97F /* EmptyResponse.json */,
+				AD5EA8E8251E6C1400AA5ED7 /* RSSFeedResponse.json */,
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
 		AD65A301251AC31D0093A5E2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,7 +112,6 @@
 			children = (
 				AD72F1BC251ABE2100FF84D7 /* NikeAssessment */,
 				AD72F1D3251ABE2400FF84D7 /* NikeAssessmentTests */,
-				AD72F1DE251ABE2400FF84D7 /* NikeAssessmentUITests */,
 				AD72F1BB251ABE2100FF84D7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -121,7 +121,6 @@
 			children = (
 				AD72F1BA251ABE2100FF84D7 /* NikeAssessment.app */,
 				AD72F1D0251ABE2400FF84D7 /* NikeAssessmentTests.xctest */,
-				AD72F1DB251ABE2400FF84D7 /* NikeAssessmentUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,19 +146,13 @@
 		AD72F1D3251ABE2400FF84D7 /* NikeAssessmentTests */ = {
 			isa = PBXGroup;
 			children = (
+				AD5EA8E7251E6BE000AA5ED7 /* MockData */,
 				AD72F1D4251ABE2400FF84D7 /* NikeAssessmentTests.swift */,
+				AD7958902520F4280092F97F /* JSONHelper.swift */,
+				AD7958A32520F7E00092F97F /* MockAlbumFetchService.swift */,
 				AD72F1D6251ABE2400FF84D7 /* Info.plist */,
 			);
 			path = NikeAssessmentTests;
-			sourceTree = "<group>";
-		};
-		AD72F1DE251ABE2400FF84D7 /* NikeAssessmentUITests */ = {
-			isa = PBXGroup;
-			children = (
-				AD72F1DF251ABE2400FF84D7 /* NikeAssessmentUITests.swift */,
-				AD72F1E1251ABE2400FF84D7 /* Info.plist */,
-			);
-			path = NikeAssessmentUITests;
 			sourceTree = "<group>";
 		};
 		AD72F1F3251ABE4B00FF84D7 /* Delegates */ = {
@@ -218,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				AD72F202251ABF3200FF84D7 /* Network.swift */,
+				AD7958B12520FC470092F97F /* AlbumFetchNetworkService.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -284,24 +278,6 @@
 			productReference = AD72F1D0251ABE2400FF84D7 /* NikeAssessmentTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AD72F1DA251ABE2400FF84D7 /* NikeAssessmentUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AD72F1EA251ABE2500FF84D7 /* Build configuration list for PBXNativeTarget "NikeAssessmentUITests" */;
-			buildPhases = (
-				AD72F1D7251ABE2400FF84D7 /* Sources */,
-				AD72F1D8251ABE2400FF84D7 /* Frameworks */,
-				AD72F1D9251ABE2400FF84D7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AD72F1DD251ABE2400FF84D7 /* PBXTargetDependency */,
-			);
-			name = NikeAssessmentUITests;
-			productName = NikeAssessmentUITests;
-			productReference = AD72F1DB251ABE2400FF84D7 /* NikeAssessmentUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -315,10 +291,6 @@
 						CreatedOnToolsVersion = 12.0;
 					};
 					AD72F1CF251ABE2400FF84D7 = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = AD72F1B9251ABE2100FF84D7;
-					};
-					AD72F1DA251ABE2400FF84D7 = {
 						CreatedOnToolsVersion = 12.0;
 						TestTargetID = AD72F1B9251ABE2100FF84D7;
 					};
@@ -339,7 +311,6 @@
 			targets = (
 				AD72F1B9251ABE2100FF84D7 /* NikeAssessment */,
 				AD72F1CF251ABE2400FF84D7 /* NikeAssessmentTests */,
-				AD72F1DA251ABE2400FF84D7 /* NikeAssessmentUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -358,13 +329,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AD72F1D9251ABE2400FF84D7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				AD7958A82520F8B30092F97F /* EmptyResponse.json in Resources */,
+				AD5EA8E9251E6C1400AA5ED7 /* RSSFeedResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +344,7 @@
 				AD65A30D251AC35F0093A5E2 /* Genres.swift in Sources */,
 				ADDFE67B251ACED1003E0AAF /* SpinnerView.swift in Sources */,
 				AD72F1C2251ABE2100FF84D7 /* AlbumListViewController.swift in Sources */,
+				AD7958B22520FC470092F97F /* AlbumFetchNetworkService.swift in Sources */,
 				AD65A308251AC3500093A5E2 /* RSSFeed.swift in Sources */,
 				AD65A326251AC7860093A5E2 /* AlbumDetailViewController.swift in Sources */,
 				AD72F1BE251ABE2100FF84D7 /* AppDelegate.swift in Sources */,
@@ -396,15 +363,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD7958A42520F7E00092F97F /* MockAlbumFetchService.swift in Sources */,
 				AD72F1D5251ABE2400FF84D7 /* NikeAssessmentTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AD72F1D7251ABE2400FF84D7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AD72F1E0251ABE2400FF84D7 /* NikeAssessmentUITests.swift in Sources */,
+				AD7958912520F4280092F97F /* JSONHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,11 +376,6 @@
 			isa = PBXTargetDependency;
 			target = AD72F1B9251ABE2100FF84D7 /* NikeAssessment */;
 			targetProxy = AD72F1D1251ABE2400FF84D7 /* PBXContainerItemProxy */;
-		};
-		AD72F1DD251ABE2400FF84D7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AD72F1B9251ABE2100FF84D7 /* NikeAssessment */;
-			targetProxy = AD72F1DC251ABE2400FF84D7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -629,44 +585,6 @@
 			};
 			name = Release;
 		};
-		AD72F1EB251ABE2500FF84D7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NikeAssessmentTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.revanth.NikeAssessmentUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NikeAssessment;
-			};
-			name = Debug;
-		};
-		AD72F1EC251ABE2500FF84D7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NikeAssessmentTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.revanth.NikeAssessmentUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NikeAssessment;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -693,15 +611,6 @@
 			buildConfigurations = (
 				AD72F1E8251ABE2500FF84D7 /* Debug */,
 				AD72F1E9251ABE2500FF84D7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AD72F1EA251ABE2500FF84D7 /* Build configuration list for PBXNativeTarget "NikeAssessmentUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AD72F1EB251ABE2500FF84D7 /* Debug */,
-				AD72F1EC251ABE2500FF84D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

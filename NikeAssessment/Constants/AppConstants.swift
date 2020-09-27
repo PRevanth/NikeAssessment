@@ -31,6 +31,10 @@ struct CellIdentifierConstants {
     static let albumCell = "AlbumCell"
 }
 
+struct RowHeightConstants {
+    static let albumListRowHeight: CGFloat = 70
+}
+
 // MARK:- Font Constants
 public enum FontConstants: String {
     case helvetMedium = "HelveticaNeue-Medium"

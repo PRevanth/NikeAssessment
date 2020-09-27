@@ -7,19 +7,22 @@
 
 import UIKit
 
+protocol NetworkProtocol {
+    func execute<T, U: Decodable>(request: T, completion: @escaping (_ response: U?, _ error: Error?) -> ())
+}
 
 struct Network {
-
+    
     typealias DataTaskCompletion = (Result<Decodable, NetworkErrors>) -> Void
     typealias DownloadTaskCompletion = (Result<UIImage, NetworkErrors>) -> Void
-
+    
     private let session = URLSession.shared
     
     struct Constants {
         static let baseURL = "https://rss.itunes.apple.com/api/v1/us/apple-music/coming-soon/all/100/explicit.json"
         static let imageConstant = "image"
     }
-
+    
     func dataTask<Request: RequestProtocol>(_ request: Request, _ completion: @escaping DataTaskCompletion) {
         guard let url = URL(string: request.url) else {
             completion(.failure(.invalidURL))
@@ -43,7 +46,7 @@ struct Network {
         }
         task.resume()
     }
-
+    
     func downloadTask(urlString: String, _ completion: @escaping DownloadTaskCompletion) -> URLSessionDataTask? {
         guard let url = URL(string: urlString) else {
             completion(.failure(.invalidURL))

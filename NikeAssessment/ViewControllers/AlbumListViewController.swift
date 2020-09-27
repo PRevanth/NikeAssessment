@@ -99,7 +99,7 @@ extension AlbumListViewController: UITableViewDataSource {
 
 extension AlbumListViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        UITableView.automaticDimension
+        RowHeightConstants.albumListRowHeight
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
